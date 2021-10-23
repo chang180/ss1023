@@ -12,12 +12,12 @@
     {{-- section sidebar --}}
     @section('sidebar')
         <h3>主版內容</h3>
-        {{-- @show --}}
-        @yield('sidebar')
+    @show
+    {{-- @yield('sidebar') --}}
 
-        <div class="container">
-            @yield('content')
-        </div>
-    </body>
+    <div class="container">
+        @yield('content')
+    </div>
+</body>
 
-    </html>
+</html>
